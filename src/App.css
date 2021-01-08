@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.headerImage{
+  background-image: url(./assets/header-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  /* width: 100%;*/
+  height: 15vw; 
+  color: #ffffff;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+}
+
+@media screen and (max-width: 768px) {
+  .headerImage{
+    height: 30vw;
+    font-size:small;
+  }
+}
