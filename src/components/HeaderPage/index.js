@@ -3,7 +3,7 @@ import NavBar from '../NavBar/NavBar';
 //import coverImageHeader from '../../assets/header-background.png';
 function HeaderPage() {
 
-    const [currentPage, handlePageChange] = useState('About');
+    const [currentPage, handlePageChange] = useState('About Me');
 
  /*    const renderPage = () => {
 

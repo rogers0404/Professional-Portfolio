@@ -1,7 +1,7 @@
 import React from 'react';
 
 function NavBar(props) {
-  const tabs = ['About', 'Porfolio', 'Contact', 'Resume'];
+  const tabs = ['About Me', 'Porfolio', 'Contact', 'Resume'];
   return (
     <nav className="navbar navbar-expand-lg navbar-dark px-1 align-items-center">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
