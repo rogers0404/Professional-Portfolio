@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 function NavBar(props) {
   const tabs = ['About Me', 'Porfolio', 'Contact', 'Resume'];
+
+  useEffect(() => {
+    document.title = props.currentPage;
+  }, [props.currentPage]);
   return (
     <nav className="navbar navbar-expand-lg navbar-dark px-1 align-items-center">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">

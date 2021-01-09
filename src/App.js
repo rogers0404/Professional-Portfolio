@@ -6,16 +6,37 @@ import About from './components/About';
 import Contact from './components/Contact'
 import Resume from './components/Resume';
 import FooterPage from './components/FooterPage';
+import Wrapper from './components/Wrapper';
+import projectsDB from "./prjectsDB.json";
+import Project from './components/Project';
+
 
 function App() {
 
   
   const [currentPage, handlePageChange] = useState('About Me');
 
+
+
+  const renderProjects = () => {
+    return <Wrapper>
+              {projectsDB.map(project => (
+                <Project
+                  id={project.id}
+                  key={project.id}
+                  name={project.name}
+                  image={project.image}
+                  github={project.github}
+                  deploy={project.deploy}
+                  technologies={project.technologies}
+                />
+              ))}
+          </Wrapper>
+  }
   const renderPage = () => {
 
     switch(currentPage){
-      /* case 'Porfolio': return <Porfolio />*/
+      case 'Porfolio': return renderProjects()
       case 'Contact': return <Contact />
       case 'Resume': return <Resume /> 
       default : return <About />
