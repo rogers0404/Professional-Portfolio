@@ -5,6 +5,7 @@ import HeaderPage from './components/HeaderPage';
 import About from './components/About';
 import Contact from './components/Contact'
 import Resume from './components/Resume';
+import FooterPage from './components/FooterPage';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
                     <div>{renderPage(currentPage)}</div>
                 }
             </div>}
+            <FooterPage />
    
       </main>
     </div>

@@ -54,3 +54,17 @@
     font-size:small;
   }
 }
+
+.footerImage{
+  background-image: url(./assets/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* width: 100%;*/
+  height: auto; 
+  color: #ffffff;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
