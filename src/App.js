@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import './App.css';
 import HeaderPage from './components/HeaderPage';
 import About from './components/About';
+import Contact from './components/Contact'
 
 function App() {
 
@@ -12,9 +13,9 @@ function App() {
   const renderPage = () => {
 
     switch(currentPage){
-      /* case 'Porfolio': return <Porfolio />
+      /* case 'Porfolio': return <Porfolio />*/
       case 'Contact': return <Contact />
-      case 'Resume': return <Resume /> */
+     /*  case 'Resume': return <Resume />  */
       default : return <About />
     }
   };
