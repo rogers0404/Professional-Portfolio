@@ -8,7 +8,7 @@ function FooterPage() {
 
   return (
     <footer className="footerImage">
-        <div class="p-1 m-0 mw-100 d-flex justify-content-center">
+        <div className="p-1 m-0 mw-100 d-flex justify-content-center">
           <div>
              <a className="text-white" href="https://github.com/rogers0404/" target="blank">
                 <img className="img-fluid" src={githubImage} alt="Rogers"  style={{width: "8%"}}/>
