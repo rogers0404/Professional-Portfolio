@@ -8,7 +8,7 @@ function Project(props) {
   return (
       <div className="col-6 row-cols-1 row-cols-md-1 row-cols-sm-1 justify-content-center">
         <div className="card">
-            <img className="card-img-top" src={require(`../../assets/projectImages/img${props.id}.png`)} alt={props.name}/>
+            <img className="card-img-top" src={props.image} alt={props.name}/>
             <div className="card-body d-flex align-items-center justify-content-center">
                 <h5 className="card-title text-dark">
                     <a className="card-link text-success" href={props.deploy} alt={props.name}>
