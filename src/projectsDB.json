@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Home Plate E-Commerce",
-    "image": "./assets/projectImages/img1.png",
+    "image": "src/assets/projectImages/img1.png",
     "github": "https://github.com/jespi116/Home-Plate.git",
     "deploy": "https://homeplate-12345.herokuapp.com/",
     "technologies":"Node.js/MySQL/Handlebars/Express.js"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Feast!",
-    "image": "./assets/projectImages/img2.png",
+    "image": "src/assets/projectImages/img2.png",
     "github": "https://github.com/skelatorian/Feast.git",
     "deploy": "https://skelatorian.github.io/Feast/",
     "technologies":"HTML/CSS/Javascript/Sever API"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Run Buddy",
-    "image": "./assets/projectImages/img3.png",
+    "image": "src/assets/projectImages/img3.png",
     "github": "https://github.com/rogers0404/run-buddy.git",
     "deploy": "https://rogers0404.github.io/run-buddy/",
     "technologies":"HTML/CSS"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Password Generator",
-    "image": "./assets/projectImages/img4.png",
+    "image": "src/assets/projectImages/img4.png",
     "github": "https://github.com/rogers0404/03-passGen.git",
     "deploy": "https://rogers0404.github.io/03-passGen/",
     "technologies":"HTML/CSS/Javascript"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Weather Dashboard",
-    "image": "./assets/projectImages/img5.png",
+    "image": "src/assets/projectImages/img5.png",
     "github": "https://github.com/rogers0404/06-weather-dashboard.git",
     "deploy": "https://rogers0404.github.io/06-weather-dashboard/",
     "technologies":"Sever API"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Coding Quiz Challenge",
-    "image": "./assets/projectImages/img6.png",
+    "image": "src/assets/projectImages/img6.png",
     "github": "https://github.com/rogers0404/code-quiz.git",
     "deploy": "https://rogers0404.github.io/code-quiz/",
     "technologies":"WEP API / DOM"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Robot Gladiator Game",
-    "image": "./assets/projectImages/img7.png",
+    "image": "src/assets/projectImages/img7.png",
     "github": "https://github.com/rogers0404/robotGladiators.git",
     "deploy": "https://rogers0404.github.io/robotGladiators/",
     "technologies":"Javascript"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": " Work Day Scheduler",
-    "image": "./assets/projectImages/img8.png",
+    "image": "src/assets/projectImages/img8.png",
     "github": "https://github.com/rogers0404/05-planner-scheduler.git",
     "deploy": "https://rogers0404.github.io/05-planner-scheduler/",
     "technologies":"JQuery"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "README Generator",
-    "image": "./assets/projectImages/img9.png",
+    "image": "src/assets/projectImages/img9.png",
     "github": "https://github.com/rogers0404/09-README-Generator-v1.0.git",
     "deploy": "https://github.com/rogers0404/09-README-Generator-v1.0.git",
     "technologies":"Node.js"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Blogger Funny",
-    "image": "./assets/projectImages/img10.png",
+    "image": "src/assets/projectImages/img10.png",
     "github": "https: https://github.com/rogers0404/14-blogger-funny.git",
     "deploy": "https://blogger-funny.herokuapp.com/ ",
     "technologies":"Express.js/OOP/MVC/MySQL"

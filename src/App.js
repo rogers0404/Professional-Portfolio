@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Resume from './components/Resume';
 import FooterPage from './components/FooterPage';
 import Wrapper from './components/Wrapper';
-import projectsDB from "./prjectsDB.json";
+import projectsDB from "./projectsDB.json";
 import Project from './components/Project';
 
 

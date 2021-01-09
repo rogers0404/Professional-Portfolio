@@ -8,7 +8,8 @@ function Wrapper(props) {
                 <div className="card-header text-dark m-1">Projects</div>
                 <div className="card-body">
                     {/* Card for each project */}
-                    <div class="row row-cols-1 row-cols-md-1 row-cols-sm-1 justify-content-center">
+                   {/*  <div className="row row-cols-1 row-cols-md-1 row-cols-sm-1 justify-content-center"> */}
+                    <div className="card-deck">
                           {props.children}
                     </div>
                      {/* Card for each project */}
