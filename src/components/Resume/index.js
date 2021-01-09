@@ -8,7 +8,7 @@ function Resume() {
                 <div className="card-body justify-content-left">
                 <a 
                   className="list-group-item list-group-item-action active text-white " 
-                  href="/">
+                  href="https://drive.google.com/file/d/1NdfqOehhR4KH7YYGpMk7PSqL87CpKXwz/view?usp=sharing">
                     Download my Resume
                 </a>
                     <p className="card-text text-dark m-1 text-justify">
