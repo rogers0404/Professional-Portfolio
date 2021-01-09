@@ -4,6 +4,7 @@ import './App.css';
 import HeaderPage from './components/HeaderPage';
 import About from './components/About';
 import Contact from './components/Contact'
+import Resume from './components/Resume';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     switch(currentPage){
       /* case 'Porfolio': return <Porfolio />*/
       case 'Contact': return <Contact />
-     /*  case 'Resume': return <Resume />  */
+      case 'Resume': return <Resume /> 
       default : return <About />
     }
   };
