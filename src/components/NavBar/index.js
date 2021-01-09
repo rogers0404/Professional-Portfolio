@@ -18,7 +18,7 @@ function NavBar(props) {
                     {tabs.map(tab => (
                       <li className="nav-item text-white" key={tab}>
                         <a
-                          href={'#' + tab.toLowerCase()}
+                          href={'#' + tab.split(' ')[0].toLowerCase()}
                           onClick={() => props.handlePageChange(tab)}
                           className={
                             props.currentPage === tab ? 'nav-link active text-warning' : 'nav-link text-white'
