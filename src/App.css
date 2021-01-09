@@ -42,7 +42,21 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* width: 100%;*/
-  height: auto; 
+  height: 5vw; 
+  color: #ffffff;
+  margin-bottom: 0vw;
+  margin-top: 0vw;
+}
+
+.footerImage{
+  background-image: url(./assets/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ /*  display: flex; */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 5vw; 
   color: #ffffff;
   margin-bottom: 0vw;
   margin-top: 0vw;
@@ -50,21 +64,13 @@
 
 @media screen and (max-width: 768px) {
   .headerImage{
-    height: 30vw;
+    height: 25vw;
+    font-size:small;
+  }
+
+  .footerImage{
+    height: 25vw;
     font-size:small;
   }
 }
 
-.footerImage{
-  background-image: url(./assets/footer-background.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* width: 100%;*/
-  height: auto; 
-  color: #ffffff;
-  margin-bottom: 0vw;
-  margin-top: 0vw;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-}
