@@ -12,16 +12,16 @@ function NavBar(props) {
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content" id="navbarTogglerDemo01">
-                <a className="navbar-brand w-50" href="/"  style={{ color: '#14213d' }}>Rogers</a>
-                <ul className="navbar-nav  border-0 text-small-dark "  style={{ color: '#14213d' }}>
+                <a className="navbar-brand w-50" href="/"  style={{ color: '#f0e6ef' }}>Rogers</a>
+                <ul className="navbar-nav  border-0 text-small-dark ">
                     {tabs.map(tab => (
-                      <li className="nav-item " key={tab}  style={{ color: '#14213d' }}>
+                      <li className="nav-item" key={tab}>
                         <a
                           href={'#' + tab.split(' ')[0].toLowerCase()}
                           onClick={() => props.handlePageChange(tab)}
-                          style={{ color: '#14213d' }}
+                          style={{ color: '#f0e6ef' }}
                           className={
-                            props.currentPage === tab ? 'nav-link active font-weight-bold' : 'nav-link '
+                            props.currentPage === tab ? 'nav-link active font-weight-bold' : 'nav-link' 
                           }
                         >
                           {tab}

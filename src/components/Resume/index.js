@@ -4,7 +4,7 @@ function Resume() {
     <section className="my-1">
         <div className="d-flex justify-content-center">
             <div className="card text-center w-75">
-                <div className="card-header m-1" style={{ color: '#14213d' }}>Resume</div>
+                <div className="card-header m-1 textFontColor font-weight-bold">Resume</div>
                 <div className="card-body justify-content-left">
                 <a 
                   className="list-group-item list-group-item-action active text-white " 
@@ -12,13 +12,13 @@ function Resume() {
                   target="blank">
                     Download my Resume
                 </a>
-                <div className="card-deck" style={{ color: '#14213d' }}>                        
+                <div className="card-deck textFontColor" >                        
                     <div className="card">
                       <div className="card-body justify-content-left">
-                          <p className="card-text  m-1 text-justify">
+                          <p className="card-text  m-1 text-justify textFontColor">
                               Front-End Proficiencies
                           </p>
-                            <ul className="list-group">
+                            <ul className="list-group textFontColor">
                                 <li className="list-group-item">HTML</li>
                                 <li className="list-group-item">CSS</li>
                                 <li className="list-group-item">JavaScript</li>
@@ -32,10 +32,10 @@ function Resume() {
                     </div>
                     <div className="card">
                       <div className="card-body justify-content-left">
-                            <p className="card-text m-1 text-justify">
+                            <p className="card-text m-1 text-justify textFontColor">
                               Back-End Proficiencies
                           </p>
-                          <ul className="list-group">
+                          <ul className="list-group textFontColor">
                                 <li className="list-group-item">APIs</li>
                                 <li className="list-group-item">Node.js</li>
                                 <li className="list-group-item">Express.js</li>

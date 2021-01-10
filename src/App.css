@@ -66,6 +66,18 @@
   width: 15%;
 }
 
+.brandImageSize{
+  width: 40%;
+}
+
+.textFontColor{
+  color: #14213d;
+}
+
+.textFontColor .togglerTextFontColor{
+  color: #14213d;
+}
+
 @media screen and (max-width: 768px) {
   .headerImage{
     height: 25vw;
@@ -79,6 +91,16 @@
 
   .imageWidth{
     width: 50%;
+  }
+
+  .brandImageSize{
+    width: auto;
+    margin: 0.5vw 3vw;
+    padding: 0.5vw;
+  }
+
+  .textFontColor .togglerTextFontColor{
+    color: #ffff3f;
   }
 }
 
