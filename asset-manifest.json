@@ -1,34 +1,24 @@
 {
   "files": {
-    "main.css": "/Professional-Porfilio/static/css/main.7123e0d2.chunk.css",
-    "main.js": "/Professional-Porfilio/static/js/main.713e92fb.chunk.js",
-    "main.js.map": "/Professional-Porfilio/static/js/main.713e92fb.chunk.js.map",
-    "runtime-main.js": "/Professional-Porfilio/static/js/runtime-main.d80a80c6.js",
-    "runtime-main.js.map": "/Professional-Porfilio/static/js/runtime-main.d80a80c6.js.map",
-    "static/js/2.cac65e8b.chunk.js": "/Professional-Porfilio/static/js/2.cac65e8b.chunk.js",
-    "static/js/2.cac65e8b.chunk.js.map": "/Professional-Porfilio/static/js/2.cac65e8b.chunk.js.map",
-    "static/js/3.f0987de6.chunk.js": "/Professional-Porfilio/static/js/3.f0987de6.chunk.js",
-    "static/js/3.f0987de6.chunk.js.map": "/Professional-Porfilio/static/js/3.f0987de6.chunk.js.map",
-    "index.html": "/Professional-Porfilio/index.html",
-    "static/css/main.7123e0d2.chunk.css.map": "/Professional-Porfilio/static/css/main.7123e0d2.chunk.css.map",
-    "static/js/2.cac65e8b.chunk.js.LICENSE.txt": "/Professional-Porfilio/static/js/2.cac65e8b.chunk.js.LICENSE.txt",
-    "static/media/email.4ff3d233.png": "/Professional-Porfilio/static/media/email.4ff3d233.png",
-    "static/media/img1.png": "/Professional-Porfilio/static/media/img1.1ca1c598.png",
-    "static/media/img10.png": "/Professional-Porfilio/static/media/img10.085564d7.png",
-    "static/media/img2.png": "/Professional-Porfilio/static/media/img2.de390bca.png",
-    "static/media/img3.png": "/Professional-Porfilio/static/media/img3.a260041b.png",
-    "static/media/img4.png": "/Professional-Porfilio/static/media/img4.8c46d5ac.png",
-    "static/media/img5.png": "/Professional-Porfilio/static/media/img5.f7985b8b.png",
-    "static/media/img6.png": "/Professional-Porfilio/static/media/img6.9cc57d52.png",
-    "static/media/img7.png": "/Professional-Porfilio/static/media/img7.4449b68b.png",
-    "static/media/img8.png": "/Professional-Porfilio/static/media/img8.9f5d97c0.png",
-    "static/media/img9.png": "/Professional-Porfilio/static/media/img9.c6752095.png",
-    "static/media/photoProfileSmall.d685eecc.jpeg": "/Professional-Porfilio/static/media/photoProfileSmall.d685eecc.jpeg"
+    "main.css": "/Professional-Portfilio/static/css/main.fae0b370.chunk.css",
+    "main.js": "/Professional-Portfilio/static/js/main.c795e268.chunk.js",
+    "main.js.map": "/Professional-Portfilio/static/js/main.c795e268.chunk.js.map",
+    "runtime-main.js": "/Professional-Portfilio/static/js/runtime-main.d32befff.js",
+    "runtime-main.js.map": "/Professional-Portfilio/static/js/runtime-main.d32befff.js.map",
+    "static/js/2.cac65e8b.chunk.js": "/Professional-Portfilio/static/js/2.cac65e8b.chunk.js",
+    "static/js/2.cac65e8b.chunk.js.map": "/Professional-Portfilio/static/js/2.cac65e8b.chunk.js.map",
+    "static/js/3.5bb9c2e8.chunk.js": "/Professional-Portfilio/static/js/3.5bb9c2e8.chunk.js",
+    "static/js/3.5bb9c2e8.chunk.js.map": "/Professional-Portfilio/static/js/3.5bb9c2e8.chunk.js.map",
+    "index.html": "/Professional-Portfilio/index.html",
+    "static/css/main.fae0b370.chunk.css.map": "/Professional-Portfilio/static/css/main.fae0b370.chunk.css.map",
+    "static/js/2.cac65e8b.chunk.js.LICENSE.txt": "/Professional-Portfilio/static/js/2.cac65e8b.chunk.js.LICENSE.txt",
+    "static/media/email.4ff3d233.png": "/Professional-Portfilio/static/media/email.4ff3d233.png",
+    "static/media/photoProfileSmall.d685eecc.jpeg": "/Professional-Portfilio/static/media/photoProfileSmall.d685eecc.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d80a80c6.js",
+    "static/js/runtime-main.d32befff.js",
     "static/js/2.cac65e8b.chunk.js",
-    "static/css/main.7123e0d2.chunk.css",
-    "static/js/main.713e92fb.chunk.js"
+    "static/css/main.fae0b370.chunk.css",
+    "static/js/main.c795e268.chunk.js"
   ]
 }
