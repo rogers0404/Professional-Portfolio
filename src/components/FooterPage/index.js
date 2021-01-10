@@ -3,7 +3,6 @@ import twitterImage from "../../assets/twitter.png";
 import githubImage from "../../assets/GitHub.png";
 import linkedinImage from "../../assets/linkedin.png";
 import emailImage from "../../assets/email.png";
-/* import twitter from "../../assets/twitter.png"; */
 function FooterPage() {
 
   return (

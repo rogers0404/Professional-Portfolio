@@ -1,6 +1,5 @@
 import React from 'react';
 import githubImage from "../../assets/GitHub.png"
-//import img from "../../assets/projectImages/img1.png"
 
 function Project(props) {
 

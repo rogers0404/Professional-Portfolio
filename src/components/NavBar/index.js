@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 
 function NavBar(props) {
-  const tabs = ['About Me', 'Porfolio', 'Contact', 'Resume'];
+  const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
   useEffect(() => {
     document.title = props.currentPage;

@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../NavBar';
-//import About from '../About';
 function HeaderPage(props) {
 
   return (

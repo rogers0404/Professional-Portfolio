@@ -1,6 +1,5 @@
 import React from 'react';
 import photo from '../../assets/photoProfileSmall.jpeg';
-//import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
   return (
     <section className="my-1">
