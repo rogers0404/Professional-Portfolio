@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Home Plate E-Commerce",
+    "name": "Home Plate",
     "image": "https://raw.githubusercontent.com/rogers0404/Professional-Porfilio/master/src/assets/projectImages/img1.png",
     "github": "https://github.com/jespi116/Home-Plate.git",
     "deploy": "https://homeplate-12345.herokuapp.com/",
