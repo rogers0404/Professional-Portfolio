@@ -34,7 +34,7 @@ You can take the app and make your own Professional Portfolio customi
 You need some packages to run this application, 
 
 - `git clone git@github.com:rogers0404/Professional-Porfilio.git        //clone the repository`
-- `npx create-react-app professional-porfolio-v1       // or npx install to get all packages and dependencies of React`
+- `npx create-react-app professional-portfolio-v1       // or npx install to get all packages and dependencies of React`
 - `npm install -D gh-pages                             //gh-pages as a devDependency`
 
 ## Usage 
@@ -83,4 +83,35 @@ for more information you can have a question via email [rogers.ramirez2008@gmail
 
 ## Screenshots
 
-none
+### Screenshot 1
+
+![](./src/assets/readme/image1.PNG)
+
+### Screenshot 2
+
+![](./src/assets/readme/image2.PNG)
+
+### Screenshot 3
+
+![](./src/assets/readme/image3.PNG)
+
+### Screenshot 4
+
+![](./src/assets/readme/image4.PNG)
+
+### Screenshot 5
+
+![](./src/assets/readme/image5.PNG)
+
+### Screenshot 6
+
+![](./src/assets/readme/image6.PNG)
+
+### Video 1
+
+[Video 1: YouTube](https://youtu.be/rJUqgRAPIac)
+
+### Video 2
+
+[Video 2: Google Drive](https://drive.google.com/file/d/1jPh6ioIH33oQQdOVNy_d3oNT7tdcM0u1/view)
+

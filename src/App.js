@@ -35,7 +35,7 @@ function App() {
   const renderPage = () => {
 
     switch(currentPage){
-      case 'Porfolio': return renderProjects()
+      case 'Portfolio': return renderProjects()
       case 'Contact': return <Contact />
       case 'Resume': return <Resume /> 
       default : return <About />
