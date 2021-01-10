@@ -62,6 +62,10 @@
   margin-top: 0vw;
 }
 
+.imageWidth{
+  width: 15%;
+}
+
 @media screen and (max-width: 768px) {
   .headerImage{
     height: 25vw;
@@ -71,6 +75,10 @@
   .footerImage{
     height: 25vw;
     font-size:small;
+  }
+
+  .imageWidth{
+    width: 50%;
   }
 }
 

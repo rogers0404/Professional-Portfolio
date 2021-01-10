@@ -8,7 +8,7 @@ function About() {
             <div className="card text-center w-75 d-flex justify-content-center" style={{ color: '#14213d' }}>
                 <div className="card-header m-1">About Me</div>
                 <div className="card-body">
-                    <img className="card-img-top m-1" src={photo} alt="Rogers" style={{width: "10%"}}/>
+                    <img className="card-img-top m-1 imageWidth" src={photo} alt="Rogers"/>
                     <div>
                         <p className="card-text m-1 text-justify">
                         I was born in Venezuela, near Orinoco River in a City called Ciudad Bolivar, Bolivar State in South Venezuela. 
