@@ -22,7 +22,7 @@ You can take the app and make your own Professional Portfolio customi
 ## URLs
 
 * Deployed Application: 
-    - [https://rogers0404.github.io/Professional-Portfilio/](https://rogers0404.github.io/Professional-Porfilio/) (live)
+    - [https://rogers0404.github.io/Professional-Portfilio/](https://rogers0404.github.io/Professional-Portfilio/) (live)
 
 * GitHub Repository:
     - [HTTPS: https://github.com/rogers0404/Professional-Portfilio.git](https://github.com/rogers0404/Professional-Porfilio.git)
