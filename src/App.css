@@ -54,9 +54,9 @@
   background-size: 100% 100%;
  /*  display: flex; */
   width: 100%;
-  position: fixed;
+ /*  position: fixed; */
   bottom: 0;
-  height: 5vw; 
+  height: 6vw; 
   color: #ffffff;
   margin-bottom: 0vw;
   margin-top: 0vw;
