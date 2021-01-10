@@ -40,32 +40,48 @@ function ContactForm() {
     <section className="my-1">
         <div className="d-flex justify-content-center">
             <div className="card text-center w-75 d-flex justify-content-center">
-                <div className="card-header text-dark m-1">Contact</div>
+                <div className="card-header m-1" style={{ color: '#14213d' }}>Contact</div>
                 <div className="card-body">
-                <div className="row">
-                <div className="col-6">
-                    <form id="contact-form" onSubmit={handleSubmit}>
-                        <div className="w-100">
-                          <label htmlFor="name">Name: {" "}</label>
-                          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                        </div>
-                        <div className="w-100">
-                          <label htmlFor="email">Email address: {" "}</label>
-                          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                        </div>
-                        <div className="w-100">
-                          <label htmlFor="message">Message: {" "}</label>
-                          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                        </div>
-                        {errorMessage && (
-                          <div className="w-100">
-                            <p className="error-text text-danger">{errorMessage}</p>
-                          </div>
-                        )}
-                        <button data-testid="button" type="submit">Submit</button>
-                    </form>
+
+                <div className="card-deck" style={{ color: '#14213d' }}>                        
+                    <div className="card">
+                      <div className="card-body justify-content-left m-0 text-sm-left">
+                          <form id="contact-form" onSubmit={handleSubmit}>
+                              <div className="w-100 row m-0" style={{ color: '#14213d' }}>
+                                  <div className="w-25 small-text" >
+                                      <label htmlFor="name">Name </label>
+                                  </div>
+                                  <div className="w-75 pl-1">
+                                    <input className="w-75" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                                  </div>                  
+                              </div>
+                              <div className="w-100 row m-0">
+                                  <div className="w-25 small-text">
+                                      <label htmlFor="email">Email</label>
+                                  </div>
+                                  <div className="w-75 pl-1">
+                                      <input className="w-75"  type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                                  </div>                                
+                              </div>
+                              <div className="w-100 row  m-0" style={{ color: '#14213d' }}>
+                                  <div className="w-25">
+                                      <label htmlFor="message">Message</label>
+                                  </div>
+                                  <div className="w-75 pl-1">
+                                      <textarea className="w-75" name="message" rows="4" defaultValue={message} onBlur={handleChange} />
+                                  </div>
+                                </div>
+                              {errorMessage && (
+                                <div className="w-100 bg-primary"  style={{ color: '#14213d' }}>
+                                  <p className="error-text" style={{ color: '#14213d' }}>{errorMessage}</p>
+                                </div>
+                              )}
+                              <button className="btn btn-primary" data-testid="button" type="submit">Submit</button>
+                          </form>
+                      </div>
                   </div>
-                  <div className="col-6">
+                  <div className="card" style={{ color: '#14213d' }}>
+                      <div className="card-body justify-content-left">
                         <div className="w-100">
                             <h1>Rogers Ramirez</h1>
                         </div>
@@ -79,11 +95,10 @@ function ContactForm() {
                   </div>
                 </div>
                 </div>
-                <div className="card-footer text-muted">
-                    2 days ago
-                </div>
-            </div>
+              </div>
+              </div>
         </div>
+
         
     </section>
 
