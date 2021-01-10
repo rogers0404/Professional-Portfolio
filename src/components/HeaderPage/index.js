@@ -5,7 +5,6 @@ function HeaderPage(props) {
 
   return (
     <header className="headerImage">
-            {/* <h1 id="header" >Rogers</h1> */}
             <NavBar currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
     
     </header>
