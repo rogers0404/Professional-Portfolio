@@ -25,8 +25,8 @@ You can take the app and make your own Professional Portfolio customi
     - [http://rogers0404.github.io/Professional-Portfolio](http://rogers0404.github.io/Professional-Portfolio) (live)
 
 * GitHub Repository:
-    - [HTTPS: https://github.com/rogers0404/Professional-Portfilio.git](https://github.com/rogers0404/Professional-Porfilio.git)
-    - [GIT: git@github.com:rogers0404/Professional-Portfilio.git](git@github.com:rogers0404/Professional-Porfilio.git)
+    - [HTTPS: https://github.com/rogers0404/Professional-Portfolio.git](https://github.com/rogers0404/Professional-Portfolio.git)
+    - [GIT: git@github.com:rogers0404/Professional-Portfolio.git](git@github.com:rogers0404/Professional-Portfolio.git)
 
 
 ## Installation
