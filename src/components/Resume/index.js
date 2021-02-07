@@ -27,6 +27,8 @@ function Resume() {
                                 <li className="list-group-item">React</li>
                                 <li className="list-group-item">Bootstrap</li>
                                 <li className="list-group-item">CURB Foundation</li>
+                                <li className="list-group-item">Chakra-UI</li>
+                                <li className="list-group-item">Redux</li>
                             </ul>
                       </div>
                     </div>
