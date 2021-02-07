@@ -12,7 +12,7 @@ function NavBar(props) {
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content" id="navbarTogglerDemo01">
-                <a className="navbar-brand w-50" href="/"  style={{ color: '#f0e6ef' }}>Rogers</a>
+                <a className="navbar-brand w-50" href="/Professional-Portfolio/"  style={{ color: '#f0e6ef' }}>Rogers</a>
                 <ul className="navbar-nav  border-0 text-small-dark ">
                     {tabs.map(tab => (
                       <li className="nav-item" key={tab}>
